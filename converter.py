@@ -42,6 +42,10 @@ def m_km(value:Union[int,float]) -> Union[int,float] :
     assert value >= 0
     return str(value) + ' meter(s) is equal to ' + str(value/1000) +' kilometer(s)'
 
+def m_mile(value:Union[int,float]) -> Union[int,float] :
+    assert value >= 0
+    return str(value) + ' meter(s) is equal to ' + str(value/1609) + ' mile(s)'
+
 
 #kilometers_to :
     
@@ -56,3 +60,9 @@ def km_cm(value:Union[int,float]) -> Union[int,float] :
 def km_m(value:Union[int,float]) -> Union[int,float] :
     assert value >= 0
     return str(value) + ' kilometer(s) is equal to ' + str(value*1000) +' meter(s)'
+
+def km_mile(value:Union[int,float]) -> Union[int,float] :
+    assert value >= 0
+    return str(value) + ' centimeter(s) is equal to ' + str(value/1.609) + ' mile(s)'
+
+
